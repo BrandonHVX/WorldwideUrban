@@ -92,7 +92,30 @@ const IndexPage = () => (
 
 
 
+    <section className="download " id="download">
+      <div className="container">
 
+        <div class="row">
+          <div class="col-md-6 sposition-relative">
+            <img src={tvscreen} class="img-fluid" alt="Image" />
+            <div class="experience">
+
+            </div>
+          </div>
+
+          <div class="col-md-5 mt-2 ml-auto">
+            <div class="heading-section text-center">
+              <span class="subheading">Mission Statement</span>
+              <h2 class="mb-4" style={{ fontSize: '35px' }}>Our Mission</h2>
+              <p>World Wide Urban Distribution is dedicated to making the world a better place by providing content that traditionally has not had mainstream exposure. Our job is to get your content out to the world through traditional and contemporary platforms to enhance the perception of human beings, especially the urban community, who have been historically underserved by the media. We are committed to help tell the stories for people who cannot customarily speak for themselves</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
 
 
 
@@ -118,7 +141,14 @@ const IndexPage = () => (
 
                 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
                   <h3 class="heading">Our Story</h3>
-                  <p>The creation of World Wide Urban Distribution is a collaboration between Rodger Reiter and Florida Film House Executives Marco Mall and Blademil Grullon.  Realizing they were of like minds when it comes to creating opportunities for new age urban filmmakers, the next natural step was to take their vision to the next level.  As a result, World Wide Urban Distribution was born.</p>
+                  <p>World Wide Urban Distribution was created by Florida Film House executive Marco Mall to provide opportunities for new age urban filmmakers.
+</p>
+                  <p>
+                    Marco is an entertainment entrepreneur whose career spans over 15 years of winning. He has established vertically integrated companies in entertainment, marketing, and branding.
+         </p>
+                  <p>
+                    By 21 Marco was the sales and Promotions Manager of WVHT in Tallahassee, FL, establishing himself as a pioneer in the industry. In 2004, Marco created JamTV, a music entertainment TV show, which ran on UPN and CW for 3 consecutive years in 39 counties, with interviews and guest artists such as Neyo, Alicia Keys, DJ Khaled and many more. He was also a tour supervisor and manager at T-Pain’s Nappy Boy Records
+                  </p>
                 </div>
               </div>
 
@@ -130,45 +160,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="download " id="download">
-      <div className="container">
 
-        <div class="row">
-          <div class="col-md-6 sposition-relative">
-            <img src={tvscreen} class="img-fluid" alt="Image" />
-            <div class="experience">
-
-            </div>
-          </div>
-
-          <div class="col-md-5 mt-5 ml-auto">
-            <div class="heading-section text-center">
-              <span class="subheading">Mission Statement</span>
-              <h2 class="mb-4" style={{ fontSize: '35px' }}>Our Mission</h2>
-              <p>World Wide Urban Distribution is dedicated to making the world a better place by providing content that traditionally has not had mainstream exposure. Our job is to get your content out to the world through traditional and contemporary platforms to enhance the perception of human beings, especially the urban community, who have been historically underserved by the media. We are committed to help tell the stories for people who cannot customarily speak for themselves</p>
-            </div>
-
-          </div>
-
-        </div>
-
-
-
-
-
-
-
-      </div>
-
-
-
-
-
-
-
-
-
-    </section>
 
 
 
