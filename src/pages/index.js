@@ -107,7 +107,7 @@ const IndexPage = () => (
             <div class="heading-section text-center">
               <span class="subheading">Mission Statement</span>
               <h2 class="mb-4" style={{ fontSize: '35px' }}>Our Mission</h2>
-              <p>World Wide Urban Distribution is dedicated to making the world a better place by providing content that traditionally has not had mainstream exposure. Our job is to get your content out to the world through traditional and contemporary platforms to enhance the perception of human beings, especially the urban community, who have been historically underserved by the media. We are committed to help tell the stories for people who cannot customarily speak for themselves</p>
+              <p>World Wide Urban Distribution is dedicated to making the world a better place by providing content that traditionally has not had mainstream exposure. Our job is to get your content out to the world through traditional and contemporary platforms to enhance the perception of human beings, especially the urban community, who have been historically underserved by the media. We are committed to help tell the stories for people who cannot customarily speak for themselves.</p>
             </div>
 
           </div>
@@ -147,7 +147,7 @@ const IndexPage = () => (
                     Marco is an entertainment entrepreneur whose career spans over 15 years of winning. He has established vertically integrated companies in entertainment, marketing, and branding.
          </p>
                   <p>
-                    By 21 Marco was the sales and Promotions Manager of WVHT in Tallahassee, FL, establishing himself as a pioneer in the industry. In 2004, Marco created JamTV, a music entertainment TV show, which ran on UPN and CW for 3 consecutive years in 39 counties, with interviews and guest artists such as Neyo, Alicia Keys, DJ Khaled and many more. He was also a tour supervisor and manager at T-Pain’s Nappy Boy Records
+                    By 21 Marco was the sales and Promotions Manager of WVHT in Tallahassee, FL, establishing himself as a pioneer in the industry. In 2004, Marco created JamTV, a music entertainment TV show, which ran on UPN and CW for 3 consecutive years in 39 counties, with interviews and guest artists such as Neyo, Alicia Keys, DJ Khaled and many more. He was also a tour supervisor and manager at T-Pain’s Nappy Boy Records.
                   </p>
                 </div>
               </div>
