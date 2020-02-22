@@ -1,5 +1,7 @@
 import React from 'react';
-
+import Zoe from '../components/zoe';
+import Aml from '../components/aml';
+import Goons from '../components/goons';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Scroll from '../components/Scroll';
@@ -59,7 +61,39 @@ const aboutSection = {
   backgroundPosition: 'center center',
 }
 
+
+
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Centered Modal</h4>
+        <p>
+          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+          consectetur ac, vestibulum at eros.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const IndexPage = () => (
+
   <Layout>
     <Header />
 
@@ -74,7 +108,7 @@ const IndexPage = () => (
                 <div class="text">
                   <div class="desc pt-5">
 
-                    <h1 class="mb-3">Maximizing digital marketing strategies to give content creators a platform to tell their stories in their voices.</h1>
+                    <h1 class="mb-3">WWUD specializes in augmenting the distribution of content creation throughout the world while preserving the authenticity of creators.</h1>
 
                   </div>
                   <Scroll type="id" element="download">
@@ -107,7 +141,7 @@ const IndexPage = () => (
             <div class="heading-section text-center">
               <span class="subheading">Mission Statement</span>
               <h2 class="mb-4" style={{ fontSize: '35px' }}>Our Mission</h2>
-              <p>World Wide Urban Distribution is dedicated to making the world a better place by providing content that traditionally has not had mainstream exposure. Our job is to get your content out to the world through traditional and contemporary platforms to enhance the perception of human beings, especially the urban community, who have been historically underserved by the media. We are committed to help tell the stories for people who cannot customarily speak for themselves.</p>
+              <p>WWUD is dedicated to propelling content that traditionally doesn’t receive mainstream exposure. We’re committed to providing the world with Urban Content to enhance the perception of individuals, primarily those who have been historically underserved by the media. Our job is to get your content out to the world through traditional and new age contemporary platforms - AVOD, TVOD, SVOD, OTT, PPV, Communication Broadcasters, Apps and Live Streaming. We can monetize and market content directly to consumers while creators can manage their online visibility, brand awareness, and measure their video assets.</p>
             </div>
 
           </div>
@@ -141,14 +175,10 @@ const IndexPage = () => (
 
                 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
                   <h3 class="heading">Our Story</h3>
-                  <p>World Wide Urban Distribution was created by Florida Film House executive Marco Mall to provide opportunities for new age urban filmmakers.
+                  <p>Florida Film House created World Wide Urban Distribution after being in the film industry for 20 plus years and recognized the lack of support and knowledge of urban content creators. We’re in an era where the traditional distribution models are no longer the standard and are changing on a quarterly basis which is being driven by digital media companies. By providing a digital platform that not only represents the creators originality but understands the market we can maximize every opportunity and take advantage of the leading tech industry by the distribution of digitally based goods and services.
 </p>
-                  <p>
-                    Marco is an entertainment entrepreneur whose career spans over 15 years of winning. He has established vertically integrated companies in entertainment, marketing, and branding.
-         </p>
-                  <p>
-                    By 21 Marco was the sales and Promotions Manager of WVHT in Tallahassee, FL, establishing himself as a pioneer in the industry. In 2004, Marco created JamTV, a music entertainment TV show, which ran on UPN and CW for 3 consecutive years in 39 counties, with interviews and guest artists such as Neyo, Alicia Keys, DJ Khaled and many more. He was also a tour supervisor and manager at T-Pain’s Nappy Boy Records.
-                  </p>
+
+
                 </div>
               </div>
 
@@ -191,9 +221,9 @@ const IndexPage = () => (
                       <div class="col-8 metadata">Drama</div>
                     </div>
                   </div>
-                  <a class="trailer-preview" href="" target="new">
-                    <i class="fa fa-play" aria-hidden="true"></i>
-                  </a>
+                  <button class="trailer-preview" target="new"><Aml />
+
+                  </button>
                 </div>
               </div>
 
@@ -215,9 +245,9 @@ const IndexPage = () => (
                       <div class="col-8 metadata">Comedy/Drama</div>
                     </div>
                   </div>
-                  <a class="trailer-preview" href="" target="new">
-                    <i class="fa fa-play" aria-hidden="true"></i>
-                  </a>
+                  <button class="trailer-preview" target="new"><Zoe />
+
+                  </button>
                 </div>
               </div>
             </div>
@@ -238,9 +268,9 @@ const IndexPage = () => (
                       <div class="col-8 metadata">Crime/Drama</div>
                     </div>
                   </div>
-                  <a class="trailer-preview" href="" target="new">
-                    <i class="fa fa-play" aria-hidden="true"></i>
-                  </a>
+                  <button class="trailer-preview" target="new"><Goons />
+
+                  </button>
                 </div>
               </div>
             </div>

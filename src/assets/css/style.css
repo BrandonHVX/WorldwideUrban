@@ -7654,20 +7654,20 @@ background-image: url('../images/bg-pattern.png');
         .hero-wrap .forth .text h1 {
           font-weight: 800;
          
-          font-size: 30px;
+          font-size: 20px;
           color: rgb(49, 48, 48);
           line-height: 1.2; }
           @media (max-width: 991.98px) {
             .hero-wrap .forth .text h1 {
-              font-size: 30px;
+              font-size: 20px;
               width: 68%;
              } 
             
             }
             @media (max-width: 991.98px) {
               .hero-wrap .forth .text h1 {
-                font-size: 30px;
-                width: 80%;
+                font-size: 20px;
+                width: 70%;
                } 
               
               }
@@ -7676,9 +7676,9 @@ background-image: url('../images/bg-pattern.png');
 
               @media (min-width: 991.98px) {
                 .hero-wrap .forth .text h1 {
-                  font-size: 40px;
+                  font-size: 30px;
                   
-                  width: 100%;
+                  width: 90%;
                  } 
                 
                 }
